@@ -1,9 +1,9 @@
-Linux System Fundamentals
+#Linux System Fundamentals
 
 		Welcome to the Linux System Fundamentals Guide.
 		This document explains Linux architecture, the boot process, file system structure, and essential commands for daily system operations.
 
-1. Linux Architecture
+#1. Linux Architecture
 
 		The Linux operating system is designed in layers to allow smooth communication between users and hardware.
 		
@@ -25,7 +25,7 @@ Linux System Fundamentals
 
 High-level programs (written in C, Python, etc.) are converted into machine-readable binary code (0s and 1s) so the hardware can execute them.
 
-2. Linux Boot Process
+#2. Linux Boot Process
 
 		The boot process is the sequence of steps that starts the Linux system.
 		
@@ -35,7 +35,7 @@ High-level programs (written in C, Python, etc.) are converted into machine-read
 		System receives power.
 		
 		BIOS / UEFI
-		Initializes hardware and performs Power-On Self-Test (POST).
+		Initialises hardware and performs Power-On Self-Test (POST).
 		
 		GNU GRUB (Bootloader)
 		Loads the Linux kernel into memory.
@@ -49,11 +49,11 @@ High-level programs (written in C, Python, etc.) are converted into machine-read
 		Login Screen
 		User is presented with a login prompt.
 
-3. File System Hierarchy
+#3. File System Hierarchy
 
 	Linux uses a tree structure that starts from the root directory /.
 
-Important Directories
+#Important Directories
 		Directory	Description
 		/	Root directory (starting point)
 		/home	User home directories
@@ -71,7 +71,7 @@ Important Directories
 		/media	Mount point for removable devices
 		/proc	Virtual filesystem (process info)
 
-4. Essential Linux Commands
+#4. Essential Linux Commands
 	A. Navigation & File Management
 		Task	Command	Example
 		Change directory	cd	cd /home/user
@@ -84,20 +84,20 @@ Important Directories
 
  Warning: rm -r permanently deletes folders. Use carefully.
 
-B. Network Commands
+##B. Network Commands
 		Task	Command	Example
 		Show IP address	ip addr	ip addr show
 		Check connectivity	ping	ping google.com
 		
 	    Stop ping with: Ctrl + C
 
-C. System Monitoring
+##C. System Monitoring
 		Task	Command	Description
 		Disk usage	df -h	Shows storage in GB/MB
 		RAM usage	free -h	Shows memory usage
 		CPU & processes	top	Live system monitor
 		Better monitor	htop	Advanced monitor (if installed)
-5. Useful Additional Commands (For DevOps & Admins)
+#5. Useful Additional Commands (For DevOps & Admins)
 		Task	Command
 		Show running processes	ps aux
 		Check system uptime	uptime
