@@ -42,12 +42,10 @@
 | **`curl`** | `curl -I https://example.com` | Transfers data from or to a server; `-I` fetches headers only. |
 | **`dig`** | `dig google.com` | DNS lookup utility to query DNS name servers. |
 | **`traceroute`** | `traceroute google.com` | Traces the route packets take to a network host. ||
-
 | **`curl`** | `curl -I https://example.com` | Fetches HTTP headers. |
 | **`wget`** | `wget url` | Downloads files. |
 | **`dig`** | `dig google.com` | DNS lookup tool. |
 | **`nslookup`** | `nslookup google.com` | Queries DNS servers. |
-
 | **`ss`** | `ss -tulnp` | Shows open ports. |
 | **`netstat`** | `netstat -tulnp` | Shows network connections. |
 | **`nc`** | `nc -zv host port` | Tests port connectivity. |
